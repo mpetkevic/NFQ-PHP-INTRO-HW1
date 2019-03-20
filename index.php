@@ -11,15 +11,13 @@ require __DIR__ . '/src/functions.php';
 require __DIR__ . '/src/functions_strict.php';
 
 
-$func1 = \calculateHomeWorkSum(3, 2.2, '1');
-$func2 = \Nfq\Akademija\Not_Typed\calculateHomeWorkSum(3, 2.2, '1');
-$func3 = \Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, '1');
-$func4 = \Nfq\Akademija\Strict\calculateHomeWorkSum(3, 2.2, '1');
+echo \calculateHomeWorkSum(3, 2.2, '1');
+echo PHP_EOL;
+echo \Nfq\Akademija\Not_Typed\calculateHomeWorkSum(3, 2.2, '1');
+echo PHP_EOL;
+echo \Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, '1');
+echo PHP_EOL;
+echo \Nfq\Akademija\Strict\calculateHomeWorkSum(3, 2.2, '1');
+echo PHP_EOL;
 
-echo $func1;
-echo PHP_EOL;
-echo __FUNCTION__ . $func2;
-echo PHP_EOL;
-echo $func3;
-echo PHP_EOL;
-echo $func4;
+

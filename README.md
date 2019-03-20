@@ -1,0 +1,3 @@
+1. Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, ‘1’) yra 6, nes kiekvienas funkcijos argumento narys verčiamas į sveiką skaičių (interger).
+
+2. Nfq\Akademija\Strict\calculateHomeWorkSum(3, 2.2, ‘1’) įvyks TypeError, jei funkcija bus kviečiama tame pačiame faile, nes į funkcijos argumentus turi griežtai atkeliauti sveiki skaičiai (integers), o atkeliauja integer, float, string. Bet jei funkcija kviečiama kita faile,  declare(strict_types=1) negalioja

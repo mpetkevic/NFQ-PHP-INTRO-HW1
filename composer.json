@@ -1,0 +1,16 @@
+{
+    "name": "mpmac/new_project",
+    "authors": [
+        {
+            "name": "Miroslav P.",
+            "email": "miroslav.petkevic@gmail.com"
+        }
+    ],
+    "require": {
+        "moontoast/math": "^1.1",
+        "fzaninotto/faker": "^1.8"
+    },
+    "require-dev": {
+        "markbaker/complex": "^1.4"
+    }
+}

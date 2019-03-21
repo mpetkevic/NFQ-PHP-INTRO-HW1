@@ -7,8 +7,9 @@
  */
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/src/functions.php';
-require __DIR__ . '/src/functions_strict.php';
+//require __DIR__ . '/vendor/composer/autoload_psr4.php';
+//require __DIR__ . '/src/functions.php';
+//require __DIR__ . '/src/functions_strict.php';
 
 
 echo \calculateHomeWorkSum(3, 2.2, '1');

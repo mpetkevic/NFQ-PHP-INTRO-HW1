@@ -12,4 +12,6 @@ namespace Nfq\Akademija\Strict {
         return array_reduce($numbers, function ($a, $b){
             return $a += $b;
         });
-    }}
+    }
+}
+
